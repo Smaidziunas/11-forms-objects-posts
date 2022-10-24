@@ -1,0 +1,17 @@
+@import 'reset.css';
+
+form *{
+  margin-bottom: 10px;
+}
+
+.postsContainer{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.errorFeedback {
+  color: tomato;
+  margin-bottom: 10px;
+  display: none;
+}
